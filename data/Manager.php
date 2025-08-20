@@ -22,6 +22,7 @@ class Manager
 }
 
 // class children (anak) harus ada extends 
+// deklarasikan ulang, jadi meimpa class parent
 class VicePresident extends Manager
 {
 
