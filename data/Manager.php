@@ -7,8 +7,10 @@ class Manager
     var string $name;
     var string $title;
 
+    // constructor overriding
     public function __construct(string $name = "", string $title = "Manager")
     {
+        // ubah name dan title jadi dari parameter
         $this->name = $name;
         $this->title = $title;
     }
