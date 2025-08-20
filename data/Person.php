@@ -17,6 +17,7 @@ class Person
         $this->address = $address;
     }
 
+    // function sayHello, dan parameter $name
     function sayHello(?string $name)
     {
         if (is_null($name)) {
