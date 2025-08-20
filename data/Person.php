@@ -18,9 +18,10 @@ class Person
     }
 
     // function sayHello, dan parameter $name
-    function sayHello(?string $name)
+    function sayHello(?string $name) // ?nullable
     {
         if (is_null($name)) {
+            // $this-> = mengakses object saat ini
             echo "Hi, my name is $this->name" . PHP_EOL;
         } else {
             echo "Hi $name, my name is $this->name" . PHP_EOL;

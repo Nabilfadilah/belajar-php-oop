@@ -4,11 +4,11 @@ require_once "data/Person.php";
 
 $abil = new Person("Fadilah", "Bandung");
 $abil->name = "Fadilah";
-$abil->sayHello("Nabil");
+$abil->sayHello("Nabil"); // karena sayHello nabil, maka jalan kondisi else
 
 $fadil = new Person("Mohammad", "Garut");
-$fadil->name = "fadil";
-$fadil->sayHello(null);
+$fadil->name = "Fadil";
+$fadil->sayHello(null); // karena sayHello null jadi menjalankan konsidi if is_null
 
 $abil->info();
 $fadil->info();
