@@ -40,6 +40,7 @@ class Person
         echo "Author : " . self::AUTHOR . PHP_EOL; // jadi gak perlu pake nama class PERSON
     }
 
+    // function desctruct, adalah yang akan di panggil ketika object di hapus dari memory
     function __destruct()
     {
         echo "Object person $this->name is destroyed" . PHP_EOL;
