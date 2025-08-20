@@ -30,9 +30,12 @@ class Person
         }
     }
 
+    // function info
     function info()
     {
-        echo "Author : " . self::AUTHOR . PHP_EOL;
+        // self keyword, untuk mengakses class saat ini
+        // kalau dalam class yang sama, bisa pake self, untuk manggil constant
+        echo "Author : " . self::AUTHOR . PHP_EOL; // jadi gak perlu pake nama class PERSON
     }
 
     function __destruct()

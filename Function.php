@@ -10,5 +10,6 @@ $fadil = new Person("Mohammad", "Garut");
 $fadil->name = "Fadil";
 $fadil->sayHello(null); // karena sayHello null jadi menjalankan konsidi if is_null
 
+// pemanggilan function, yang menampilkan constant AUTHOR
 $abil->info();
 $fadil->info();
