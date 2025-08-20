@@ -13,8 +13,10 @@ class Person
     var ?string $address = null; // nullable properties (?string) dan valuenya "null"
     var string $country = "Indonesia"; // default properties value
 
-    function __construct(string $name, ?string $address)
+    // constructor, harus ada __construct
+    function __construct(string $name, ?string $address) // kalau pake parameter  $name and $address
     {
+        // panggil/ubah dari parameter
         $this->name = $name;
         $this->address = $address;
     }
